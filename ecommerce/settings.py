@@ -118,6 +118,12 @@ DATABASES = {
        #'PASSWORD':'Friends0072025',
        #'HOST':'database-1.cluster-cbkq6mikweo4.ap-south-1.rds.amazonaws.com',
        #'PORT':'3306',
+       #'ENGINE': 'django.db.backends.postgresql',
+       #'NAME': 'mydatabase',  # what you set while creating RDS
+       #'USER': 'rds_masteruser',  # master username
+       #'PASSWORD': 'Sivaprakash.330570',  # your password
+       #'HOST': 'mydatabase-instance-1.cbkq6mikweo4.ap-south-1.rds.amazonaws.com',
+       #'PORT': '5432',  # 3306 for MySQL
     }
 }
 
