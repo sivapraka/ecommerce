@@ -1,7 +1,7 @@
 from __future__ import annotations
 from dataclasses import dataclass
 from typing import Optional
-from ecommerce.dbConnection.builder import Builder  # Adjust import if your path differs
+from dbConnection.builder import Builder  # Adjust import if your path differs
 
 
 @dataclass

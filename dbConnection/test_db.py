@@ -1,6 +1,6 @@
 import unittest
 
-from ecommerce.dbConnection.db_config import DatabaseConfiguration
+from dbConnection.db_config import DatabaseConfiguration
 
 
 class TestDatabaseBuilder(unittest.TestCase):

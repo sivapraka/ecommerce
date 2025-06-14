@@ -3,8 +3,8 @@ import sqlite3
 import threading
 from typing import Optional
 
-from ecommerce.connection.ConnectionPool import ConnectionPool
-from ecommerce.connection.DatabaseConnection import DatabaseConnection
+from connection.ConnectionPool import ConnectionPool
+from connection.DatabaseConnection import DatabaseConnection
 
 
 class ConnectionPoolImpl(ConnectionPool):

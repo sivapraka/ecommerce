@@ -1,7 +1,7 @@
 import unittest
 
-from ecommerce.config_management.app_config import ConfigurationType, Configuration
-from ecommerce.config_management.registry_impl import ConfigurationPrototypeRegistryImpl
+from config_management.app_config import ConfigurationType, Configuration
+from config_management.registry_impl import ConfigurationPrototypeRegistryImpl
 
 
 class TestConfigurationPrototypeRegistryImpl(unittest.TestCase):

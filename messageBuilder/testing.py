@@ -1,6 +1,6 @@
 import unittest
 
-from ecommerce.messageBuilder.message_data import Message, MessageType
+from messageBuilder.message_data import Message, MessageType
 
 
 class TestMessageBuilder(unittest.TestCase):

@@ -3,7 +3,7 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import Optional
 
-from ecommerce.connection.DatabaseConnection import DatabaseConnection
+from connection.DatabaseConnection import DatabaseConnection
 
 
 class ConnectionPool(ABC):
