@@ -3,7 +3,7 @@ from .model import Image
 
 class AnalyticsService:
     def store(self, image: Image) -> None:
-        # Logic to store image in analytics service
+        # Logic to store image in analytics services
         pass
 
 
