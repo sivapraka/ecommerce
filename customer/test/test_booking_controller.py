@@ -1,12 +1,18 @@
 import unittest
 
-from customer.controllers import BookingController
-from customer.repositories import *
-from customer.services import BookingService
-from customer.dtos import *
-
-
-from customer.models import *
+from customer.controllers.booking_controller import BookingController
+from customer.dtos.make_booking_request_dto import MakeBookingRequestDto
+from customer.dtos.make_booking_response_dto import MakeBookingResponseDto
+from customer.dtos.response_status import ResponseStatus
+from customer.models.room import Room
+from customer.models.room_type import RoomType
+from customer.models.user import User
+from customer.models.user_type import UserType
+from customer.repositories.booking_repository import BookingRepository
+from customer.repositories.customer_session_repository import CustomerSessionRepository
+from customer.repositories.room_repository import RoomRepository
+from customer.repositories.user_repository import UserRepository
+from customer.services.booking_service import BookingService
 
 
 class RoomsControllerTest(unittest.TestCase):

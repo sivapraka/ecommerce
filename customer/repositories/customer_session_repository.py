@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import Optional
 
-from customer.models import CustomerSession
+from customer.models.customer_session import CustomerSession
 
 
 class CustomerSessionRepository(ABC):

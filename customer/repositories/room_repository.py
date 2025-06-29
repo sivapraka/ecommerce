@@ -1,8 +1,7 @@
 from typing import Optional
 from abc import ABC, abstractmethod
 
-from customer.models import Room
-
+from customer.models.room import Room
 
 class RoomRepository(ABC):
 

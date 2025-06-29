@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from .response_status import ResponseStatus
-from ..models import Booking
+from customer.models.booking import Booking
 
 
 @dataclass

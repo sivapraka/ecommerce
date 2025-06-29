@@ -1,7 +1,7 @@
 from typing import Optional
 from abc import ABC, abstractmethod
 
-from customer.models import User
+from customer.models.user import User
 
 
 class UserRepository(ABC):
